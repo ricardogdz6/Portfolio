@@ -13,4 +13,78 @@ h1 {
     background-color: #191716;
     flex: 1;
     height: 100vh;
+    overflow: hidden;
+}
+
+.bodyText2 {
+    color: white;
+    font-family: 'Lexend Light', sans-serif;
+    font-size: 5vw;
+    text-align: justify;
+    position: relative;
+}
+
+.enterAnimation {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: enterAnimation 1s forwards;
+}
+
+.enterAnimationLeft {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: enterAnimationLeft 1s forwards;
+}
+
+@keyframes enterAnimationLeft {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes enterAnimation {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.bodyText3 {
+    color: white;
+    font-family: 'Lexend Light', sans-serif;
+    font-size: 3vw;
+    text-align: justify;
+    position: relative;
+}
+.bodyText4 {
+    color: white;
+    font-weight: bold;
+    background-color: #50C878;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Lexend Light', sans-serif;
+    font-size: 3vw;
+    text-align: justify;
+    position: relative;
+}
+
+.barStyle {
+    margin-left: 5px;
+    background-color: white;
+    width: 10px;
+    height: 100%
+}
+
+.hidden{
+    background-color: #191716;
+}
+
+.nameText2 {
+    color: #50C878;
+    font-family: 'Lexend', sans-serif;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: justify;
+    position: relative;
 }
