@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.fixedNav {
+    position: fixed;
+    top: 50%;
+    right: 10px;
+    background-color: #333333;
+    border-radius: 40px;
+    height: 400px;
+    width: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(200%) translateY(-50%);
+    }
+    to {
+        transform: translateX(0) translateY(-50%);
+    }
+}
+
+@keyframes slideOutRight {
+    from {
+        transform: translateX(0) translateY(-50%);
+    }
+    to {
+        transform: translateX(200%) translateY(-50%);
+    }
+}
+
+.slide-in {
+    animation: slideInRight 0.2s ease forwards;
+}
+
+.slide-out {
+    animation: slideOutRight 0.2s ease forwards;
+}
