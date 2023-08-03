@@ -16,9 +16,8 @@ class Home extends Component {
     }
   render() {
     return (
+
         <body>
-
-
         <div className={"flexLateral"}>
 
             {/* LEFT CONTAINER */}
@@ -69,7 +68,7 @@ class Home extends Component {
                                 <text className={"bodyText"} style={{marginLeft:'5px'}}>ricardogdz6@gmail.com</text>
                             </div>
 
-                            <div className={"socialIcons"}>
+                            <div className={"socialIcons flexLateral"}>
                                 <a href="https://www.linkedin.com/in/ricardo-gallego-domínguez-928a80213" target="_blank" rel="noopener noreferrer">
                                     <BsLinkedin className={"socialIcon"}></BsLinkedin>
                                 </a>
@@ -90,9 +89,7 @@ class Home extends Component {
                 <Presentation></Presentation>
                 <Technologies></Technologies>
             </div>
-
         </div>
-
         <FixedNav></FixedNav>
 
         </body>

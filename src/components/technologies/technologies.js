@@ -3,10 +3,11 @@ import './technologies.css';
 
 class Technologies extends Component {
   render() {
-    return (
-        <div className={"pageTech"} >
-          Hola, mundo!
-        </div>
+      return (
+          <div id="second-page" className={"pageTech"}>
+              Hola, mundo!
+          </div>
+
     );
   }
 }

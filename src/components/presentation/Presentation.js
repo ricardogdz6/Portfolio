@@ -38,22 +38,22 @@ class Presentation extends Component {
 
   render() {
     return (
-        <div className={"page center-content flex-vertical"} >
+            <div className={"page center-content flex-vertical"} >
 
-            {/* UPPER TEXT */}
-            <div className={"enterAnimation"}>
-                <text className={"bodyText2"}>Hi, I'm </text>
-                <text className={"nameText2"}>Ricardo</text>
+                {/* UPPER TEXT */}
+                <div className={"enterAnimation dissapearFlow"} >
+                    <text className={"bodyText2"}>Hi, I'm </text>
+                    <text className={"nameText2"}>Ricardo</text>
+                </div>
+
+                {/* BELOW TEXT */}
+                <div className={"enterAnimationLeft flex-horizontal vertical-center dissapearFlow"}>
+                    <text className={"bodyText3"} style={{marginRight:'5px'}} >I am </text>
+                    <text className={"bodyText4"}><span style={{fontSize:'0px'}}>ㅤ</span>{this.state.displayedText}</text>
+                    <div className={this.state.barBlink ? "barStyle hidden2" : "barStyle"}></div>
+                </div>
+
             </div>
-
-            {/* BELOW TEXT */}
-            <div className={"enterAnimationLeft flex-horizontal vertical-center"}>
-                <text className={"bodyText3"} style={{marginRight:'5px'}} >I am </text>
-                <text className={"bodyText4"}><span style={{fontSize:'0px'}}>ㅤ</span>{this.state.displayedText}</text>
-                <div className={this.state.barBlink ? "barStyle hidden" : "barStyle"}></div>
-            </div>
-
-        </div>
     );
   }
 }

@@ -24,15 +24,23 @@ h1 {
     position: relative;
 }
 
+
 .enterAnimation {
     opacity: 0;
     transform: translateX(100%);
     animation: enterAnimation 1s forwards;
 }
 
+@media (max-width: 850px) {
+    .dissapearFlow{
+        display: none;
+    }
+}
+
+
 .enterAnimationLeft {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-300%);
     animation: enterAnimationLeft 1s forwards;
 }
 
@@ -63,7 +71,7 @@ h1 {
     background-color: #50C878;
     padding: 5px 10px;
     border-radius: 10px;
-    font-family: 'Lexend Light', sans-serif;
+    font-family: 'Lexend', sans-serif;
     font-size: 3vw;
     text-align: justify;
     position: relative;
@@ -76,7 +84,7 @@ h1 {
     height: 100%
 }
 
-.hidden{
+.hidden2{
     background-color: #191716;
 }
 

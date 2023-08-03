@@ -20,7 +20,7 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
                 wordRevealed = wordsArray[iterator].substring(0, wordLetterI - 1);
                 wordLetterI--
 
-                await sleep(100);
+                await sleep(80);
 
                 if (wordRevealed.length === 0){
 
@@ -43,14 +43,14 @@ const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
                 wordRevealed = wordsArray[iterator].substring(0, wordLetterI + 1);
                 wordLetterI++
-                await sleep(100);
+                await sleep(80);
 
                 if (wordRevealed === wordsArray[iterator]){
 
                     reverse = true
 
                     updateCallback(wordRevealed);
-                    await sleep(1000);
+                    await sleep(1500);
 
                 } else updateCallback(wordRevealed);
 

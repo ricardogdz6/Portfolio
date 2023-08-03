@@ -15,12 +15,27 @@ h1 {
     right: 10px;
     background-color: #333333;
     border-radius: 40px;
-    height: 400px;
+    height: 165px;
     width: 50px;
+}
+
+.IconButton{
+    background-color: #50C878 !important;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.IconButton:hover{
+    background-color: #3bb263 !important;
 }
 
 .hidden {
     display: none;
+}
+
+.overviewButton{
+    background-color: red !important;
+    border-radius: 50%;
 }
 
 @keyframes slideInRight {
