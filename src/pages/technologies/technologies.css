@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.pageTech{
+    position: relative;
+    flex: 1;
+    height: 100vh;
+    min-height: 500px;
+}
+
+.upperPolygon{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: #191716; /*#191716*/
+    clip-path: polygon(0 0, 116% 0, 0 100%);
+}
+
+.belowPolygon{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: #191716; /*#191716*/
+    clip-path: polygon(0 84%, 100% 100%, 120% 0); /* Inversión del triángulo rectángulo */
+}
+
+.belowPolygonDecoration{
+    bottom: 0;
+    left: 0;
+    background-color: #191716;
+    position: absolute;
+    height: 24px;
+    width: 100%;
+}
+
+.bodyText5{
+    font-family: 'Lexend', sans-serif;
+    position: absolute;
+    font-size: 5vw;
+    top:80px;
+    color: #50C878;
+}
+
+
+.chip{
+    height: 90px;
+    min-width: 90px;
+}
+
+
+
+.scaleAnim{
+    transition: transform 0.2s ease;
+}
+
+.scaleAnim:hover{
+    transform: scale(1.45); /* Hace el chip un poco más grande al pasar el mouse por encima */
+}
+
+.aaa{
+    background-color: red;
+}

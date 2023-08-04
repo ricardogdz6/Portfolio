@@ -12,17 +12,45 @@ h1 {
 .fixedNav {
     position: fixed;
     top: 50%;
+    transform: translateY(-50%);
     right: 10px;
     background-color: #333333;
     border-radius: 40px;
     height: 165px;
     width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.IconButton{
+@media (max-width: 1000px) {
+    .fixedNav {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        background-color: #333333;
+        border-radius: 40px;
+        height: 50px;
+        width: 165px;
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.IconButton {
     background-color: #50C878 !important;
     margin-top: 7px;
     margin-bottom: 7px;
+}
+
+@media (max-width: 1000px) {
+    .IconButton {
+        background-color: #50C878 !important;
+        margin: 7px;
+    }
 }
 
 .IconButton:hover{

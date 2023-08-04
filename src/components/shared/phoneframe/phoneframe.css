@@ -14,37 +14,7 @@ h1 {
     font-size: 24px;
 }
 
-.parentContainer {
-    background-color: #50c878;
-    width: 500px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    min-height: 720px;
-    border-radius: 0px 30px 30px 0px;
-    animation: slideIn 0.5s ease-out;
-    z-index: 1;
-}
 
-.optionalPhoneInfo{
-    background-color: #50c878;
-    padding-top: 20px;
-    width: 500px;
-    height: 120vh;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 1000px;
-
-}
-
-.optionalParentContainer{
-    background-color: #50c878;
-
-}
 
 @keyframes slideIn {
     0% {
@@ -88,11 +58,29 @@ h1 {
     }
 }
 
-.dissapear{
-    display: none;
+
+
+.floatingCard{
+    background-color: #191716;
+    max-height: 800px;
+    min-height: 600px;
+    height: 95%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 10px 25px rgba(28, 28, 28, 0.9);
+    animation: slideIn 0.85s cubic-bezier(0.68, -0.55, 0.27, 1.35);
+
 }
 
-
+.phoneContent{
+    border-radius: 15px;
+    height: 96%;
+    width: 94%;
+    background-color: #191716;
+}
 
 .notch{
     position: absolute;

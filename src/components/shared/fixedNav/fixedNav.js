@@ -46,9 +46,9 @@ class FixedNav extends Component {
 
       return (
           <ChakraProvider>
-            <div className={`flex-vertical center-content fixedNav ${windowWidth < 1000 ? 'slide-out' : 'slide-in'}`} >
+            <div className={`fixedNav`} >
 
-              <IconButton
+                <IconButton
                   onClick={this.scrollToTop}
                   className={"IconButton "}
                   isRound={true}

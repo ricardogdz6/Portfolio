@@ -1,7 +1,7 @@
 import React, { Component, useEffect, useState } from 'react';
 import './Presentation.css';
-import TypingAnimation from "../../components/TypingAnimation/TypingAnimation";
-import blink from "../../components/blink/blink";
+import TypingAnimation from "../../components/utils/TypingAnimation/TypingAnimation";
+import blink from "../../components/utils/blink/blink";
 
 class Presentation extends Component {
 

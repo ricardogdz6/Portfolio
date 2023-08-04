@@ -31,11 +31,11 @@ h1 {
     animation: enterAnimation 1s forwards;
 }
 
-@media (max-width: 850px) {
+/*@media (max-width: 850px) {
     .dissapearFlow{
         display: none;
     }
-}
+}*/
 
 
 .enterAnimationLeft {
