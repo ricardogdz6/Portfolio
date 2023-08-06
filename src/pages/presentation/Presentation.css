@@ -31,13 +31,6 @@ h1 {
     animation: enterAnimation 1s forwards;
 }
 
-/*@media (max-width: 850px) {
-    .dissapearFlow{
-        display: none;
-    }
-}*/
-
-
 .enterAnimationLeft {
     opacity: 0;
     transform: translateX(-300%);
@@ -95,4 +88,43 @@ h1 {
     font-weight: bold;
     text-align: justify;
     position: relative;
+}
+
+@media (max-width: 1000px) {
+    .bodyText2 {
+        color: white;
+        font-family: 'Lexend Light', sans-serif;
+        font-size: 10vw;
+        text-align: justify;
+        position: relative;
+    }
+
+    .nameText2 {
+        color: #50C878;
+        font-family: 'Lexend', sans-serif;
+        font-size: 10vw;
+        font-weight: bold;
+        text-align: justify;
+        position: relative;
+    }
+
+    .bodyText3 {
+        color: white;
+        font-family: 'Lexend Light', sans-serif;
+        font-size: 6vw;
+        text-align: justify;
+        position: relative;
+    }
+
+    .bodyText4 {
+        color: white;
+        font-weight: bold;
+        background-color: #50C878;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-family: 'Lexend', sans-serif;
+        font-size: 6vw;
+        text-align: justify;
+        position: relative;
+    }
 }
