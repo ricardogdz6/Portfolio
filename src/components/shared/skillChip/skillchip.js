@@ -9,7 +9,7 @@ class Skillchip extends Component {
         const { name, uri } = this.props; // Recibiendo los parámetros de props
 
         return (
-            <div className={"flex-vertical center-content scaleAnim"} style={{margin:'15px'}}>
+            <div className={"flex-vertical center-content scaleAnim"}>
                 <img className={"chip"} src={uri} alt="Descripción de la imagen" />
                 <text className={"bodyText"}>{name}</text>
             </div>

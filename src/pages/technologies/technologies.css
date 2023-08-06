@@ -12,8 +12,8 @@ h1 {
 .pageTech{
     position: relative;
     flex: 1;
-    height: 100vh;
     min-height: 500px;
+
 }
 
 .upperPolygon{
@@ -47,21 +47,40 @@ h1 {
 .bodyText5{
     font-family: 'Lexend', sans-serif;
     position: absolute;
-    font-size: 5vw;
-    top:80px;
+    font-size: 5rem;
+    top:90px;
     color: #50C878;
+
 }
 
+.gridContainer{
+    min-height: 700px;
+    margin-top: 70px;
+    padding: 150px;
+
+}
+
+@media(max-width: 1000px){
+    .gridContainer{
+        min-height: 700px;
+        margin-top: 70px;
+        margin-left: 15px;
+        padding: 150px;
+    }
+
+}
 
 .chip{
     height: 90px;
     min-width: 90px;
 }
 
-
+.skillChipWrapper {
+    margin: 10px;
+}
 
 .scaleAnim{
-    transition: transform 0.2s ease;
+    transition: transform 0.05s ease;
 }
 
 .scaleAnim:hover{

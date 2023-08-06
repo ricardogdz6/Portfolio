@@ -3,6 +3,7 @@ import './Home.css';
 import '../../global.css';
 import Presentation from "../presentation/Presentation";
 import Technologies from "../technologies/technologies";
+import Proyects from "../Proyects/proyects";
 import FixedNav from "../../components/shared/fixedNav/fixedNav";
 import pfp from '../../resources/images/ricardopfp.png';
 import { AiOutlineMail } from 'react-icons/ai';
@@ -38,7 +39,7 @@ class Home extends Component {
     render() {
         return (
 
-            <body>
+            <body style={{minWidth:'500px'}}>
             <div className={"flexLateral"}>
                 {/* LEFT CONTAINER */}
                 <div className={"parentContainer dissapearCard"}>
@@ -50,6 +51,7 @@ class Home extends Component {
             <div className={"rightContainer flowMargin"}>
                 <Presentation></Presentation>
                 <Technologies></Technologies>
+                <Proyects></Proyects>
                 <div className={"optionalParentContainer center-content"}>
                     <div className={`optionalPhoneInfo ${window.innerWidth > 1000 ? 'dissapear' : ''}`}>
                         <PhoneFrameFilled/>

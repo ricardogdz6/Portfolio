@@ -37,6 +37,14 @@ class FixedNav extends Component {
         });
     };
 
+    scrollToThirdPage = () => {
+        const element = document.getElementById('third-page');
+        window.scrollTo({
+            top: element.offsetTop,
+            behavior: 'smooth',
+        });
+    };
+
     handleWindowResize = () => {
         this.setState({ windowWidth: window.innerWidth });
     };
@@ -71,6 +79,7 @@ class FixedNav extends Component {
             />
 
             <IconButton
+                onClick={this.scrollToThirdPage}
                 className={"IconButton"}
                 isRound={true}
                 variant='solid'

@@ -28,7 +28,7 @@ class Technologies extends Component {
 
       const skillsData = [
           { name: "React", uri: reactlogo },
-          { name: "Compose", uri: jetpack },
+          { name: "Jetpack Compose", uri: jetpack },
           { name: "React Native", uri: reactlogo },
           { name: "Android", uri: android },
           { name: "Blazor", uri: blazor },
@@ -44,14 +44,10 @@ class Technologies extends Component {
           { name: "Firebase", uri: firebase },
           { name: "AWS", uri: aws },
           { name: "SQL", uri: sql }
-
-
-
-          // Agrega más objetos para cada SkillChip
       ];
 
       return (
-          <div id="second-page" className={"pageTech center-content"} >
+          <div id="second-page" className={"pageTech center-content"}>
 
               <div className={"upperPolygon"}></div>
               <div className={"belowPolygon"}></div>
@@ -60,26 +56,18 @@ class Technologies extends Component {
               <text className={"bodyText5"}>Skills</text>
 
               <ParticlesBackground/>
-
-                  <Grid
-                      item xs={12} sm={6} md={8}
-                      container
-                      direction="row"
-                      justifyContent="center"
-                      alignItems="center"
-                        >
-                      {skillsData.map((skill, index) => (<SkillChip
-                              key={index}
-                              name={skill.name}
-                              uri={skill.uri}
-                          />))}
+              <div className={"gridContainer center-content"} >
+                  <Grid container spacing={{ xs: 5, md: 5 }} columns={{ xs: 5, sm: 10, md: 10 }}>
+                      {skillsData.map((skill, index) => (
+                          <Grid item xs={2} sm={3} md={3} lg={2} key={index}>
+                              <SkillChip name={skill.name} uri={skill.uri} />
+                          </Grid>
+                      ))}
 
                   </Grid>
-
+              </div>
 
           </div>
-
-
     );
   }
 }

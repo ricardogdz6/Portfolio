@@ -1,0 +1,12 @@
+.smallChipAlign {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Esto es opcional y puede ajustarse según tus necesidades */
+}
+
+.gotoButtonSmall{
+    background-color: #50C878 !important;
+    font-weight: bold;
+    width: 100px;
+}
