@@ -48,7 +48,7 @@ class Presentation extends Component {
 
                 {/* BELOW TEXT */}
                 <div className={"enterAnimationLeft flex-horizontal vertical-center dissapearFlow"}>
-                    <text className={"bodyText3"} style={{marginRight:'5px'}} >I am </text>
+                    <text className={"bodyText3"} style={{marginRight:'5px'}} >I am a </text>
                     <text className={"bodyText4"}><span style={{fontSize:'0px'}}>ㅤ</span>{this.state.displayedText}</text>
                     <div className={this.state.barBlink ? "barStyle hidden2" : "barStyle"}></div>
                 </div>
