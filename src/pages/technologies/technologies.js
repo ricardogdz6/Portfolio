@@ -31,19 +31,13 @@ class Technologies extends Component {
           { name: "Jetpack Compose", uri: jetpack },
           { name: "React Native", uri: reactlogo },
           { name: "Android", uri: android },
-          { name: "Blazor", uri: blazor },
           { name: "JavaScript", uri: javascript },
           { name: "HTML", uri: html },
           { name: "CSS", uri: css },
           { name: "Spring Boot", uri: springboot },
           { name: "Hibernate", uri: hibernate },
-          { name: "Retrofit", uri: retrofit },
-          { name: "ROOM", uri: room },
-          { name: "Git", uri: git },
-          { name: "GitHub", uri: github },
           { name: "Firebase", uri: firebase },
           { name: "AWS", uri: aws },
-          { name: "SQL", uri: sql }
       ];
 
       return (
