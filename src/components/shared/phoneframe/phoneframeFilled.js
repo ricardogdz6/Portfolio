@@ -29,8 +29,7 @@ class PhoneframeFilled extends Component {
                         {/* WHITE DECORATION */}
                         <div className={"trickyWhiteDecoration"}></div>
                         <div style={{marginLeft: '15px', marginRight: '15px', marginBottom: '15px'}}>
-                            <text className={"bodyText littleTopOffset"}>Passionate Mobile Developer with interest
-                                in Web-Developing. Providing clean interfaces with intelligent solutions.
+                            <text className={"bodyText littleTopOffset"}>Passionate Mobile & Web Developer. Providing clean interfaces with intelligent solutions.
                             </text>
                             <br></br>
                             <text className={"bodyText littleTopOffset "}>Eager to learn new knowledge.</text>

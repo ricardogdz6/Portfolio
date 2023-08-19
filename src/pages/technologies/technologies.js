@@ -19,6 +19,8 @@ import retrofit from '../../resources/images/retrofit.png'
 import room from '../../resources/images/room.png'
 import springboot from '../../resources/images/springboot.png'
 import sql from '../../resources/images/sql.png'
+import angular from '../../resources/images/angular.png'
+import kotlin from '../../resources/images/kotlin.png'
 
 
 
@@ -27,17 +29,18 @@ class Technologies extends Component {
   render() {
 
       const skillsData = [
+          { name: "Angular", uri: angular },
           { name: "React", uri: reactlogo },
           { name: "Jetpack Compose", uri: jetpack },
           { name: "React Native", uri: reactlogo },
-          { name: "Android", uri: android },
+          { name: "Blazor", uri: blazor },
+          { name: "Kotlin", uri: kotlin },
           { name: "JavaScript", uri: javascript },
           { name: "HTML", uri: html },
           { name: "CSS", uri: css },
           { name: "Spring Boot", uri: springboot },
           { name: "Hibernate", uri: hibernate },
           { name: "Firebase", uri: firebase },
-          { name: "AWS", uri: aws },
       ];
 
       return (
