@@ -22,17 +22,16 @@ class PhoneframeFilled extends Component {
                     <div className={"upperHalf center-content flex-vertical"}>
                         <img className={"pfp"} style={{marginBottom: '10px'}} src={pfp} alt="My pfp"/>
                         <text className={"nameText"}>Ricardo Gallego Domínguez</text>
-                        <text className={"subText"}>Mobile & Web Developer</text>
+                        <text className={"subText"}>Full-Stack Developer</text>
                     </div>
                     {/* BELOW HALF */}
                     <div className={"belowHalf"}>
                         {/* WHITE DECORATION */}
                         <div className={"trickyWhiteDecoration"}></div>
                         <div style={{marginLeft: '15px', marginRight: '15px', marginBottom: '15px'}}>
-                            <text className={"bodyText littleTopOffset"}>Passionate Mobile & Web Developer. Providing clean interfaces with intelligent solutions.
+                            <text className={"bodyText littleTopOffset"}><b>Full-Stack Developer</b> with a special passion for <b>frontend</b>,
+                                <b> mobile</b> and <b>web</b> projects. Always eager to learn and enhance my skills to deliver innovative and efficient solutions.
                             </text>
-                            <br></br>
-                            <text className={"bodyText littleTopOffset "}>Eager to learn new knowledge.</text>
                         </div>
 
                         {/* SPANISH FLAG */}

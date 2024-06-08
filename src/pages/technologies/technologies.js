@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './technologies.css';
 import SkillChip from '../../components/shared/skillChip/skillchip';
 import reactlogo from '../../resources/images/react.png'
+import ioniclogo from '../../resources/images/ionic.png'
 import ParticlesBackground from "../../components/shared/Particles/ParticlesBackground";
 import {Grid} from "@mui/joy";
 import android from '../../resources/images/android.png'
@@ -30,6 +31,7 @@ class Technologies extends Component {
 
       const skillsData = [
           { name: "Angular", uri: angular },
+          { name: "Ionic", uri: ioniclogo },
           { name: "React", uri: reactlogo },
           { name: "Jetpack Compose", uri: jetpack },
           { name: "React Native", uri: reactlogo },

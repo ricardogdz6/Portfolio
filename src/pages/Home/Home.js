@@ -5,12 +5,6 @@ import Presentation from "../presentation/Presentation";
 import Technologies from "../technologies/technologies";
 import Proyects from "../Proyects/proyects";
 import FixedNav from "../../components/shared/fixedNav/fixedNav";
-import pfp from '../../resources/images/ricardopfp.png';
-import { AiOutlineMail } from 'react-icons/ai';
-import ReactCountryFlag from "react-country-flag"
-import { BsLinkedin } from 'react-icons/bs';
-import { BsGithub } from 'react-icons/bs';
-import PhoneFrame from '../../components/shared/phoneframe/phoneframe';
 import PhoneFrameFilled from '../../components/shared/phoneframe/phoneframeFilled';
 
 class Home extends Component {
